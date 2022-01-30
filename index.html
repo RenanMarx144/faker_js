@@ -1,0 +1,13 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<div id="app">
+  <p>{{name}}</p>
+  <input type="text" v-model="name">
+  <select v-on:change="slectNome" >
+    <option value="Renan">Renan</option>
+    <option value="Marques">Marques</option>
+    <option value="Fontna">Fontna</option>
+  </select>
+</div>
+
+<script src="app.js"></script>
