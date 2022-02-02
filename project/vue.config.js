@@ -1,3 +1,3 @@
-module.exports = {
-  baseUrl: '/faker_js'
-}
+// module.exports = {
+//   baseUrl: '/faker_js'
+// }
