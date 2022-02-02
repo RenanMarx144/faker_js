@@ -1,16 +1,19 @@
-  
-  new Vue({
-    el: '#app',
+
+new Vue({
+  el: '#nav',
   data: {
-    name: 'Renan'
+    slideAnimation: '',
+    home: 'http://localhost/faker_js/',
+    produtos_link:'http://localhost/faker_js/produtos'
   },
   methods: {
-    atername(e){
-       this.name = e.target.value
+    animar(){
+      this.slideAnimation = 'sld'
     },
-    slectNome(e){
-    this.name = e.target.value
-  }
+    close(){
+      this.slideAnimation = ''
+    }
   },
-  })
-  
+})
+
+
